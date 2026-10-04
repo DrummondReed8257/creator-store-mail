@@ -1,0 +1,12 @@
+{
+  "name": "creator-store-mail",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/order_service.ts",
+    "test": "node --experimental-strip-types src/order_service.test.ts"
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
+  }
+}
